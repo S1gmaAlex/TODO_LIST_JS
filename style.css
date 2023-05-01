@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0 50px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+body {
+    background-color: rgb(0, 195, 255);
+}
+
+.task-form {
+    display: flex;
+    justify-content: center;
+}
+
+.task-input {
+    height: 50px;
+    width: 500px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.task-submit {
+    cursor: pointer;
+    background: none;
+    color: aliceblue;
+
+}
+
+.task-submit:hover {
+    color: rgb(0, 81, 255);
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.task-list {
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.task {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.content {
+    height: 50px;
+    width: 405px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.task-actions {
+    padding-top: 15px;
+}
+
+.edit:hover {
+    color: rgb(0, 81, 255);
+}
+
+.delete:hover {
+    color: rgb(214, 89, 89);
+}
+
+button {
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    color: aliceblue;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+input {
+    border: 0;
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+}
